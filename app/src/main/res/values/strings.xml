@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Mad Taxi</string>
+    <string name="generic_crouton_error_message">Oops! Something went wrong, please try again.</string>
 </resources>
