@@ -2,9 +2,11 @@ package com.starcraft.madtaxi
 
 object Constants {
 
-    val BASE_URL = "https://<madrid taxi server>/"
+    const val BASE_URL = "https://www-2.munimadrid.es/"
 
     // UPDATE
-    val PLAY_STORE_URL = "https://play.google.com/store/apps/details?id=com.starcraft.madtaxi"
-    val PLAY_STORE_URI_TYPE = "text/html"
+    const val PLAY_STORE_URL = "https://play.google.com/store/apps/details?id=com.starcraft.madtaxi"
+    const val PLAY_STORE_URI_TYPE = "text/html"
+    const val API_KEY = "1a1012f5-8b27-412d-ba70-f7bf245a9ed0"
+
 }
