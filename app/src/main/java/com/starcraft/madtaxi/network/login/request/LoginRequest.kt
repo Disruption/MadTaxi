@@ -4,10 +4,10 @@ import com.starcraft.madtaxi.network.Endpoints
 import com.starcraft.madtaxi.network.UnauthorizedRequest
 import com.starcraft.madtaxi.network.login.response.LoginResponse
 
-class LoginRequest(username: String, password:String) : UnauthorizedRequest<LoginResponse>() {
+class LoginRequest(username: String, password: String) : UnauthorizedRequest<LoginResponse>() {
 
-    val mUsername:String = username
-    val mPassword:String = password
+    val mUsername: String = username
+    val mPassword: String = password
 
     override fun getEndpointUrl(): String {
         return getDomain() + Endpoints.LOGIN
